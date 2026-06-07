@@ -13,9 +13,10 @@
             .button1{
                 display: flex;
                 font-size: 20px;
-                
-                
+                border-radius: 10px;
+               
             }
+           
             p{
                 font-size: 16px;
             }
@@ -42,11 +43,11 @@
                         <img src="./icons/house.png" width="30px" height="30px"/>
                         Home
                     </button>
-                    <button class="button1">
-                        <img src="./icons/working.png" width="30px" height="30px"/>
+                    <button class="button1" onclick="window.open('./about/about.html')" >
+                        <img src="./icons/working.png"  width="30px" height="30px"/>
                         About Me
                     </button>
-                    <button class="button1">
+                    <button class="button1" onclick="window.open('./resume/shriyashResume.pdf')">
                         <img src="./icons/cv.png" width="30px" height="30px"/>
                         Resume
                     </button>
@@ -113,8 +114,8 @@
                 <div class="col-sm-2">
                     <h2>Page Details</h2>
                     <a href="">Home</a><br>
-                    <a href="">About us</a><br>
-                    <a href="">Resume</a><br>
+                    <a href="./about/about.html">About Me</a><br>
+                    <a href="./resume/shriyashResume.pdf">Resume</a><br>
 
                 </div>
                 <div class="col-sm-1">
@@ -124,18 +125,30 @@
                     <h2>Techinal accounts</h2>
                     <ol>
                         <li>
-                            <button class="button1"><img src="./icons/leetcode-brands-solid.png" width="30px" height="30px"> Leetcode</button>
+                            <button class="button1" onclick="window.open('https://leetcode.com/u/shriyash555/')">
+                                <img src="./icons/leetcode-brands-solid.png" width="30px" height="30px"> 
+                                Leetcode
+                            </button>
                         </li>
                         <li>
                            
-                            <button class="button1"><img src="./icons/Codingninjas--Streamline-Simple-Icons.png"  width="30px" height="30px"> Coding Ninjas</button>
+                            <button class="button1" onclick="window.open('https://www.naukri.com/code360/profile/388d45a2-ebb1-4158-84c6-2d5cc2428b79')">
+                                <img src="./icons/Codingninjas--Streamline-Simple-Icons.png"  width="30px" height="30px"> 
+                                Coding Ninjas
+                            </button>
                         </li>
                         
                         <li>
-                            <button class="button1" ><img src="./icons/icons8-geeksforgeeks-48.png"  width="30px" height="30px">GFG</button>
+                            <button class="button1" onclick="window.open('https://www.geeksforgeeks.org/profile/shriyash?tab=activity')">
+                                <img src="./icons/icons8-geeksforgeeks-48.png"  width="30px" height="30px">
+                                GFG
+                            </button>
                         </li>
                         <li>
-                            <button class="button1" ><img src="./icons/hackerrank-brands-solid-full.svg"  width="30px" height="30px">Hackerrank</button>
+                            <button class="button1" onclick="window.open('https://www.hackerrank.com/profile/shriyash555')">
+                                <img src="./icons/hackerrank-brands-solid-full.svg"  width="30px" height="30px">
+                                Hackerrank
+                            </button>
                         </li>
                     </ol>
                 </div>
@@ -145,10 +158,10 @@
                     <p>shriyashingale555@gmail.com</p>
                     <p>8329087144</p>
                     <div style="display: flex;">
-                        <button><img src="./icons/social/linkedin.png" width="30" height="30"></button>
-                        <button><img src="./icons/social/facebook.png" width="30" height="30"></button>
-                        <button><img src="./icons/social/social.png" width="30" height="30"></button>
-                        <button><img src="./icons/social/twitter.png" width="30" height="30"></button>
+                        <button class="button1" onclick="window.open('https://www.linkedin.com/in/shriyash-ingale-856436119/')"><img src="./icons/social/linkedin.png" width="30" height="30"></button>
+                        <button class="button1" onclick="window.open('https://www.facebook.com/shriyash.ingale/')"><img src="./icons/social/facebook.png" width="30" height="30"></button>
+                        <button class="button1" onclick="window.open('https://www.instagram.com/shriyashingale/')"><img src="./icons/social/social.png" width="30" height="30"></button>
+                        <button class="button1" onclick="window.open('https://x.com/shriyashingale1')"><img src="./icons/social/twitter.png" width="30" height="30"></button>
                     </div>
                 </div>
             </div>
